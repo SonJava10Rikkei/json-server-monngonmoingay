@@ -15,7 +15,7 @@
   "author": "Danh Son",
   "license": "MIT",
   "dependencies": {
-    "faker": "^5.5.3",
+    "faker":"^5.5.0",
     "json-server": "^0.17.4",
     "query-string": "^7.0.0"
   },
