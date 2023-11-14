@@ -1,28 +1,22 @@
 const faker = require('faker');
 const fs = require('fs');
 
-// Set locale to use Vietnamese
 faker.locale = 'vi';
-
-// Random data
-
-// console.log(faker.commerce.department());
-// console.log(faker.commerce.productName());
-// console.log(faker.commerce.productName());
-// console.log(faker.commerce.productDescription());
-
-// console.log(faker.random.uuid());
-// console.log(faker.image.imageUrl());
-// console.log(faker.name.findName());
 
 const randomCategoryList = (n) => {
   if (n <= 0) return [];
   const categoryList = [];
-  // loop and push category
+  const usedIds = new Set();
 
   Array.from(new Array(n)).forEach(() => {
+    let uniqueId;
+    do {
+      uniqueId = faker.datatype.number({ min: 1, max: 1000000 });
+    } while (usedIds.has(uniqueId));
+
+    usedIds.add(uniqueId);
     const category = {
-      id: faker.random.uuid(),
+      id: uniqueId,
       name: faker.commerce.department(),
       createdAt: Date.now(),
       updatedAt: Date.now(),
@@ -36,13 +30,18 @@ const randomProductList = (categoryList, numberOfProducts) => {
   if (numberOfProducts <= 0) return [];
 
   const productList = [];
-
-  // random data
+  const usedIds = new Set();
 
   for (const category of categoryList) {
     Array.from(new Array(numberOfProducts)).forEach(() => {
+      let uniqueId;
+      do {
+        uniqueId = faker.datatype.number({ min: 1, max: 1000000 });
+      } while (usedIds.has(uniqueId));
+
+      usedIds.add(uniqueId);
       const product = {
-        id: faker.random.uuid(),
+        id: uniqueId,
         categoryId: category.id,
         name: faker.commerce.productName(),
         color: faker.commerce.color(),
@@ -59,14 +58,10 @@ const randomProductList = (categoryList, numberOfProducts) => {
   return productList;
 };
 
-// IFFE
-
 (() => {
-  // random data
   const categoryList = randomCategoryList(4);
   const productList = randomProductList(categoryList, 5);
 
-  //  prepare db object
   const db = {
     categories: categoryList,
     products: productList,
@@ -74,8 +69,6 @@ const randomProductList = (categoryList, numberOfProducts) => {
       name: 'Po',
     },
   };
-
-  // write db object to db.json
 
   fs.writeFile('db.json', JSON.stringify(db), () => {
     console.log('Generate data successfully !!! ');

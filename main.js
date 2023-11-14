@@ -12,11 +12,19 @@ server.get('/echo', (req, res) => {
   res.jsonp(req.query);
 });
 
-// To handle POST, PUT and PATCH you need to use a body-parser
+// To handle POST, PUT, and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser);
+
+// Custom id tracker
+const idTracker = {};
+
+// Middleware to convert id to number
 server.use((req, res, next) => {
   if (req.method === 'POST') {
+    // Generate a unique number id
+    const uniqueId = generateUniqueId();
+    req.body.id = uniqueId;
     req.body.createdAt = Date.now();
     req.body.updatedAt = Date.now();
   } else if (req.method === 'PATCH') {
@@ -61,3 +69,13 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log('JSON Server is running');
 });
+
+// Function to generate a unique number id
+function generateUniqueId() {
+  let uniqueId;
+  do {
+    uniqueId = Math.floor(Math.random() * 1000000) + 1;
+  } while (idTracker[uniqueId]);
+  idTracker[uniqueId] = true;
+  return uniqueId;
+}
