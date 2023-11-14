@@ -18,7 +18,7 @@ Content-Type: application/json
 ###
 
 # @name updateCategory
-PATCH  {{baseUrl}}/categories/3d46b1ba-96f1-4cd9-b200-08ebcb725938
+PATCH  {{baseUrl}}/categories/757273
 Content-Type: application/json
 
 {

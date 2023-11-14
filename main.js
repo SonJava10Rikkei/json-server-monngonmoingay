@@ -25,10 +25,10 @@ server.use((req, res, next) => {
     // Generate a unique number id
     const uniqueId = generateUniqueId();
     req.body.id = uniqueId;
-    req.body.createdAt = Date.now();
-    req.body.updatedAt = Date.now();
+    req.body.createdAt = formatTimestamp(Date.now());
+    req.body.updatedAt = formatTimestamp(Date.now());
   } else if (req.method === 'PATCH') {
-    req.body.updatedAt = Date.now();
+    req.body.updatedAt = formatTimestamp(Date.now());
   }
 
   // Continue to JSON Server router
@@ -78,4 +78,10 @@ function generateUniqueId() {
   } while (idTracker[uniqueId]);
   idTracker[uniqueId] = true;
   return uniqueId;
+}
+
+// Function to format timestamp
+function formatTimestamp(timestamp) {
+  const dateObject = new Date(timestamp);
+  return dateObject.toLocaleString('vi-VN'); // Chọn ngôn ngữ và định dạng phù hợp
 }
