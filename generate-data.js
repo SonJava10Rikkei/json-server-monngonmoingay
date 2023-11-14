@@ -1,8 +1,8 @@
-const faker = require("faker");
-const fs = require("fs");
+const faker = require('faker');
+const fs = require('fs');
 
 // Set locale to use Vietnamese
-faker.locale = "vi";
+faker.locale = 'vi';
 
 // Random data
 
@@ -24,8 +24,8 @@ const randomCategoryList = (n) => {
     const category = {
       id: faker.random.uuid(),
       name: faker.commerce.department(),
-      createAt: Date.now(),
-      updateAt: Date.now(),
+      createdAt: Date.now(),
+      updatedAt: Date.now(),
     };
     categoryList.push(category);
   });
@@ -40,22 +40,21 @@ const randomProductList = (categoryList, numberOfProducts) => {
   // random data
 
   for (const category of categoryList) {
-      Array.from(new Array(numberOfProducts)).forEach(() => {
-          const product = {
-            categoryId: category.id,
-            id: faker.random.uuid(),
-            name: faker.commerce.productName(),
-            color: faker.commerce.color(),
-            price: Number.parseFloat(faker.commerce.price()),
-            description: faker.commerce.productDescription(),
-            createAt: Date.now(),
-            updateAt: Date.now(),
-            thumbnailUrl: faker.image.imageUrl(600, 400),
-          };
-        
-          productList.push(product);
-      });
-    }
+    Array.from(new Array(numberOfProducts)).forEach(() => {
+      const product = {
+        id: faker.random.uuid(),
+        categoryId: category.id,
+        name: faker.commerce.productName(),
+        color: faker.commerce.color(),
+        price: Number.parseFloat(faker.commerce.price()),
+        description: faker.commerce.productDescription(),
+        createdAt: Date.now(),
+        updatedAt: Date.now(),
+        thumbnailUrl: faker.image.imageUrl(600, 400),
+      };
+      productList.push(product);
+    });
+  }
 
   return productList;
 };
@@ -72,13 +71,13 @@ const randomProductList = (categoryList, numberOfProducts) => {
     categories: categoryList,
     products: productList,
     profile: {
-      name: "Po",
+      name: 'Po',
     },
   };
 
   // write db object to db.json
 
-  fs.writeFile("db.json", JSON.stringify(db), () => {
-    console.log("Generate data successfully !!! ");
+  fs.writeFile('db.json', JSON.stringify(db), () => {
+    console.log('Generate data successfully !!! ');
   });
 })();

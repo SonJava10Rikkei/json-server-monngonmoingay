@@ -59,11 +59,11 @@ Content-Type: application/json
 ###
 
 # @name update
-PATCH  {{baseUrl}}/{{resourceName}}/y93hIFQ
+PATCH  {{baseUrl}}/{{resourceName}}/aa66baeb-d27a-42e0-9205-fa449df3c0b2
 Content-Type: application/json
 
 {
-    "name": "Small Concrete Pizza Update",
+    "name": "Small dsdConcffrete Pizza Upd  ate",
     "color": "red",
     "price": 666
   }
