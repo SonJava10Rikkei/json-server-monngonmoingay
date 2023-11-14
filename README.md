@@ -1,7 +1,7 @@
 # JSON-SERVER of RN-MonNgonMoiNgay
 
 - Goal: Create fake APIs
-- Who: Frontend
+- Who: Frontend!
 
 ---
 
