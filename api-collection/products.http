@@ -9,7 +9,7 @@ GET {{baseUrl}}/{{resourceName}}
 ###
 
 # @name filterProducts
-GET {{baseUrl}}/{{resourceName}}?color=red
+GET {{baseUrl}}/{{resourceName}}?id=11
 
 ###
 
@@ -71,4 +71,4 @@ Content-Type: application/json
 ###
 
 # @name remove
-DELETE  {{baseUrl}}/{{resourceName}}/2
+DELETE  {{baseUrl}}/{{resourceName}}/11

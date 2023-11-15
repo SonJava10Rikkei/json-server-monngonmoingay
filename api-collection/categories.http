@@ -18,7 +18,7 @@ Content-Type: application/json
 ###
 
 # @name updateCategory
-PATCH  {{baseUrl}}/categories/757273
+PATCH  {{baseUrl}}/categories/736533
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 ###
 
 # @name deleteCategory
-DELETE  {{baseUrl}}/categories/2
+DELETE  {{baseUrl}}/categories/736533

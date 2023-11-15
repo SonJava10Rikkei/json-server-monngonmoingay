@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon main.js",
     "start": "node main.js",
-    "generate-data": "node generate-data.js"
+    "generate-data": "node generate-data.js",
+    "start:fake-api": "json-server --watch db.json --port 5000"
   },
   "keywords": [
     "json-server"
@@ -17,6 +18,7 @@
   "dependencies": {
     "faker": "^5.5.0",
     "json-server": "^0.17.4",
+    "multer": "^1.4.5-lts.1",
     "query-string": "^7.0.0"
   },
   "devDependencies": {

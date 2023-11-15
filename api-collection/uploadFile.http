@@ -1,0 +1,31 @@
+@baseUrl = http://localhost:3000/api
+
+# uploadedFiles
+
+# @name getAllUploadedFiles
+GET {{baseUrl}}/uploadedFiles
+
+###
+
+# @name addNewUploadedFiles
+POST {{baseUrl}}/uploadedFiles
+Content-Type: application/json
+
+{
+    "filename":"Laptop"
+}
+
+###
+
+# @name updateUploadedFiles
+PATCH  {{baseUrl}}/uploadedFiles/1
+Content-Type: application/json
+
+{
+    "filename":"Electronics new 2"
+}
+
+###
+
+# @name deleteUploadedFiles
+DELETE  {{baseUrl}}/uploadedFiles/691682

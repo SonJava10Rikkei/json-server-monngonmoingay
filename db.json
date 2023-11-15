@@ -1,4 +1,12 @@
 {
+  "uploadedFiles": [
+    {
+      "id": 797839,
+      "filename": "163542_1000000096.jpg",
+      "createdAt": "02:43:04, 16/11/2023",
+      "updatedAt": "02:43:04, 16/11/2023"
+    }
+  ],
   "categories": [
     {
       "id": 1,
@@ -102,7 +110,7 @@
       "id": 1,
       "categoryId": 1,
       "nameProduct": "Cơm hến Huế",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
@@ -116,16 +124,36 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "Hến tươi: 2kg" },
-              { "2": "Gạo tẻ ngon: 400g" },
-              { "3": "Da heo sấy khô: 50g" },
-              { "4": "Đậu phộng: 150g" },
-              { "5": "Khế: 2 quả" },
-              { "6": "Bạc hà (dọc mùng): 200g" },
-              { "7": "Rau răm: 15g" },
-              { "8": "Hành, tỏi băm: 30g" },
-              { "9": "Mắm ruốc Huế: 2 muỗng canh" },
-              { "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm" },
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
               {
                 "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
               }
@@ -171,12 +199,11 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 2,
       "categoryId": 3,
       "nameProduct": "Canh ghẹ rau muống",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
@@ -190,10 +217,18 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "Ghẹ tươi: 3 con (khoảng 600 – 800g)" },
-              { "2": "Rau muống: 1 bó" },
-              { "3": "Hành tím: 2 củ" },
-              { "4": "Gia vị: hạt nêm, bột ngọt, nước mắm, muối, dầu ăn" }
+              {
+                "1": "Ghẹ tươi: 3 con (khoảng 600 – 800g)"
+              },
+              {
+                "2": "Rau muống: 1 bó"
+              },
+              {
+                "3": "Hành tím: 2 củ"
+              },
+              {
+                "4": "Gia vị: hạt nêm, bột ngọt, nước mắm, muối, dầu ăn"
+              }
             ]
           },
           "makeFood": {
@@ -221,12 +256,11 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 3,
       "categoryId": 1,
       "nameProduct": "Chả bò",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -240,14 +274,30 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "1kg thịt nạc bò" },
-              { "2": "200g mỡ heo" },
-              { "3": "1 muỗng canh tiêu đen" },
-              { "4": "15g tỏi" },
-              { "5": "Khế: 2 quả" },
-              { "6": "10g thì là" },
-              { "7": "Lá chuối" },
-              { "8": "Gia vị: Đường, bột ngọt, nước mắm, tinh bột khoai tây, bột nổi,…" }
+              {
+                "1": "1kg thịt nạc bò"
+              },
+              {
+                "2": "200g mỡ heo"
+              },
+              {
+                "3": "1 muỗng canh tiêu đen"
+              },
+              {
+                "4": "15g tỏi"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "10g thì là"
+              },
+              {
+                "7": "Lá chuối"
+              },
+              {
+                "8": "Gia vị: Đường, bột ngọt, nước mắm, tinh bột khoai tây, bột nổi,…"
+              }
             ]
           },
           "makeFood": {
@@ -285,12 +335,11 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 4,
       "categoryId": 1,
       "nameProduct": "Chả lụa siêu dễ",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -304,8 +353,12 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "800g thịt heo" },
-              { "2": "Lá chuối" },
+              {
+                "1": "800g thịt heo"
+              },
+              {
+                "2": "Lá chuối"
+              },
               {
                 "3": "Gia vị: Bột nêm gà, nước mắm, tiêu trắng, nước mắm, dầu ăn, tinh bột khoai tây, bột nổi,…"
               }
@@ -351,12 +404,11 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 5,
       "categoryId": 1,
       "nameProduct": "Cháo cá phô mai",
-      "price": 60000.0,
+      "price": 60000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -370,12 +422,24 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "Cá hồi: 200g" },
-              { "2": "Gạo lứt xay nhỏ: 150g" },
-              { "3": "Phô mai: 15g" },
-              { "4": "Nấm hương: 50g" },
-              { "5": "Hành ngò: 5g" },
-              { "6": "Dầu mè: 1 muỗng cà phê" }
+              {
+                "1": "Cá hồi: 200g"
+              },
+              {
+                "2": "Gạo lứt xay nhỏ: 150g"
+              },
+              {
+                "3": "Phô mai: 15g"
+              },
+              {
+                "4": "Nấm hương: 50g"
+              },
+              {
+                "5": "Hành ngò: 5g"
+              },
+              {
+                "6": "Dầu mè: 1 muỗng cà phê"
+              }
             ]
           },
           "makeFood": {
@@ -408,12 +472,11 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 6,
       "categoryId": 2,
       "nameProduct": "Gỏi dưa leo",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -427,13 +490,27 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "Khô cá sặc: 3 con" },
-              { "2": "Dưa leo: 5 quả" },
-              { "3": "Tỏi: 1 củ" },
-              { "4": "Chanh: 1 quả" },
-              { "5": "Ớt: 4 quả" },
-              { "6": "Các loại rau thơm: hành lá, húng cây, rau mùi, diếp cá, tía tô,…" },
-              { "7": "Gia vị: đường, nước mắm, bột ngọt" }
+              {
+                "1": "Khô cá sặc: 3 con"
+              },
+              {
+                "2": "Dưa leo: 5 quả"
+              },
+              {
+                "3": "Tỏi: 1 củ"
+              },
+              {
+                "4": "Chanh: 1 quả"
+              },
+              {
+                "5": "Ớt: 4 quả"
+              },
+              {
+                "6": "Các loại rau thơm: hành lá, húng cây, rau mùi, diếp cá, tía tô,…"
+              },
+              {
+                "7": "Gia vị: đường, nước mắm, bột ngọt"
+              }
             ]
           },
           "makeFood": {
@@ -466,11 +543,10 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 7,
       "nameProduct": "Kem Overnight Oat",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -485,13 +561,27 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "Dâu tây, các loại hạt dinh dưỡng" },
-              { "2": "½ chén yến mạch cán dẹt" },
-              { "3": "1 muỗng canh hạt chiaDa heo sấy khô: 50g" },
-              { "4": "1 muỗng canh sữa chua thực vật" },
-              { "5": "100ml sữa đậu nành không đường" },
-              { "6": "1 muỗng canh mật ong" },
-              { "7": "1 muỗng canh bơ đậu phộng không đường" }
+              {
+                "1": "Dâu tây, các loại hạt dinh dưỡng"
+              },
+              {
+                "2": "½ chén yến mạch cán dẹt"
+              },
+              {
+                "3": "1 muỗng canh hạt chiaDa heo sấy khô: 50g"
+              },
+              {
+                "4": "1 muỗng canh sữa chua thực vật"
+              },
+              {
+                "5": "100ml sữa đậu nành không đường"
+              },
+              {
+                "6": "1 muỗng canh mật ong"
+              },
+              {
+                "7": "1 muỗng canh bơ đậu phộng không đường"
+              }
             ]
           },
           "makeFood": {
@@ -514,12 +604,11 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 8,
       "categoryId": 7,
       "nameProduct": "Phở xào",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -533,15 +622,33 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "150g bánh phở khô (loại có chiều rộng là 1mm)" },
-              { "2": "150g nấm đông cô" },
-              { "3": "150g cà rốt" },
-              { "4": "300g cải thìa" },
-              { "5": "70g hành tây" },
-              { "6": "3 cọng hành lá" },
-              { "7": "3 tép tỏi" },
-              { "8": "2 củ hành tím" },
-              { "9": "Gia vị: Dầu hào, nước tương, hạt nêm, dầu mè, tiêu xay,…" }
+              {
+                "1": "150g bánh phở khô (loại có chiều rộng là 1mm)"
+              },
+              {
+                "2": "150g nấm đông cô"
+              },
+              {
+                "3": "150g cà rốt"
+              },
+              {
+                "4": "300g cải thìa"
+              },
+              {
+                "5": "70g hành tây"
+              },
+              {
+                "6": "3 cọng hành lá"
+              },
+              {
+                "7": "3 tép tỏi"
+              },
+              {
+                "8": "2 củ hành tím"
+              },
+              {
+                "9": "Gia vị: Dầu hào, nước tương, hạt nêm, dầu mè, tiêu xay,…"
+              }
             ]
           },
           "makeFood": {
@@ -579,11 +686,10 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
       "id": 9,
       "nameProduct": "Cá biển kho",
-      "price": 100000.0,
+      "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
@@ -598,11 +704,21 @@
           "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-              { "1": "500g cá biển cắt khứa" },
-              { "2": "100g thịt ba chỉ" },
-              { "3": "1 trái ớt sừng" },
-              { "4": "Hành lá, tỏi, hành tím" },
-              { "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…" }
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
             ]
           },
           "makeFood": {
@@ -620,39 +736,59 @@
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
-
     {
-     "id": 10,
-   "nameProduct": "Cá trê lai kho tiêu",
-   "price": 100000.0,
-   "quantity": 20,
-   "imageProduct": [
-      {
-         "idIMG": 1,
-         "urlImage": "IMAGES.dishComHenHue"
-      }
-   ],
-   "category": "listCategories[0]",
-   "description": [
-      {
-         "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài. Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
-             
-         "ingredient": {
+      "id": 10,
+      "nameProduct": "Cá trê lai kho tiêu",
+      "price": 100000,
+      "quantity": 20,
+      "imageProduct": [
+        {
+          "idIMG": 1,
+          "urlImage": "IMAGES.dishComHenHue"
+        }
+      ],
+      "category": "listCategories[0]",
+      "description": [
+        {
+          "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài. Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
+          "ingredient": {
             "name": "Nguyên liệu",
             "detail": [
-               { "1": "Hến tươi: 2kg" },
-               { "2": "Gạo tẻ ngon: 400g" },
-               { "3": "Da heo sấy khô: 50g" },
-               { "4": "Đậu phộng: 150g" },
-               { "5": "Khế: 2 quả" },
-               { "6": "Bạc hà (dọc mùng): 200g" },
-               { "7": "Rau răm: 15g" },
-               { "8": "Hành, tỏi băm: 30g" },
-               { "9": "Mắm ruốc Huế: 2 muỗng canh" },
-               { "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm" },
-               { "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm" }
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
+              {
+                "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
+              }
             ]
-         },
+          },
           "makeFood": {
             "name": "Các bước thực hiện",
             "detail": [
