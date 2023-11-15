@@ -28,4 +28,4 @@ Content-Type: application/json
 ###
 
 # @name deleteCategory
-DELETE  {{baseUrl}}/categories/736533
+DELETE  {{baseUrl}}/categories/791530

@@ -28,4 +28,4 @@ Content-Type: application/json
 ###
 
 # @name deleteUploadedFiles
-DELETE  {{baseUrl}}/uploadedFiles/691682
+DELETE  {{baseUrl}}/uploadedFiles/926068
