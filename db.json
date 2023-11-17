@@ -27,7 +27,6 @@
       "password": "1lk11",
       "avatar": "https://firebas.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
       "createdAt": 1700220126202,
-      "updatedAt": "18:25:32, 17/11/2023",
       "id": "k0zIWwe"
     }
   ],
@@ -38,96 +37,96 @@
       "nameCategory": "Món ăn cho cả nhà",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/mon-an-cho-ca-nha.jpg?alt=media&token=8ebffee5-61e7-49ab-ab2d-e0079fed3288",
       "type": "món ăn",
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:39:17, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 2,
       "nameCategory": "Món ăn khai vị và tráng miệng",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/salad-ca-ngu.jpg?alt=media&token=340d475b-128b-482b-97e5-ca271299f4aa",
       "type": "món ăn",
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 3,
       "nameCategory": "Công thức pha nước chấm",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-lma-nuoc-mam-gung-an-bun-mang-vit.jpg?alt=media&token=3e7c8f23-1a9f-435f-8968-4b8cf9053fc3",
       "type": "công thức",
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 4,
       "nameCategory": "Công thức các món canh ngon",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/canh-ngao-chua-nau-sau.jpg?alt=media&token=9bc3ac2b-468a-4b74-836d-4728f2f16696",
       "type": "món ăn",
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 5,
       "nameCategory": "Các món cơm chiên",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/com-rang-dua-bo.jpg?alt=media&token=c2c267da-ff0d-4a9e-8981-9ca805107c36",
       "type": "món ăn",
-      "createdAt": "02:38:28, 15/11/2023",
-      "updatedAt": "02:38:28, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 6,
       "nameCategory": "Món ăn chơi",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/banh-trang-tron-chay-cach-lam-mon-an-vat-chay.jpg?alt=media&token=804454c5-6e48-4e22-93cb-e2963d7a47ae",
       "type": "món ăn",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 7,
       "nameCategory": "Món xào",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/thit-de-xao-cu-hanh.jpg?alt=media&token=c2e75d46-2322-4874-8b30-43be6d8c072d",
       "type": "món ăn",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 8,
       "nameCategory": "Các món lẩu",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-nau-lau-ca-keo-la-giang.jpg?alt=media&token=ae5746a4-5519-40cf-bbfb-b00166eb8629",
       "type": "món ăn",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 9,
       "nameCategory": "Các món bún, miến",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/bun-mang-vit.jpg?alt=media&token=b4877185-38cd-425b-ae32-afab538a1443",
       "type": "món ăn",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 10,
       "nameCategory": "Trà, cafe",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/tra-sua-tran-chau-duong-den.jpg?alt=media&token=7e29e402-9eff-496a-8fb1-6cb401dbed0c",
       "type": "công thức",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 11,
       "nameCategory": "Sinh tố, kem",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/uong-nuoc-ep-ca-chua-moi-ngay.jpg?alt=media&token=e0955ecb-573a-4134-bb51-bdeb49f58374",
       "type": "công thức",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     },
     {
       "id": 12,
       "nameCategory": "Công thức pha rượu, cốc tai",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/nuoc-ep-oi.jpg?alt=media&token=4ba9d9d9-dace-4974-94ee-628640920674",
       "type": "công thức",
-      "createdAt": "02:38:37, 15/11/2023",
-      "updatedAt": "02:38:37, 15/11/2023"
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
     }
   ],
   "products": [
@@ -711,7 +710,7 @@
       "quantity": 20,
       "imageProduct": [
         {
-            "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCaBienKho%2Fca-bien-kho.jpg?alt=media&token=6bddecaa-82bb-4ee4-aa2a-26cf924bfbc3"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCaBienKho%2Fca-bien-kho.jpg?alt=media&token=6bddecaa-82bb-4ee4-aa2a-26cf924bfbc3"
         }
       ],
       "description": [

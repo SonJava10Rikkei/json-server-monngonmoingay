@@ -133,11 +133,13 @@ function handlePostRequest(req) {
   // req.body.createdAt = formatTimestamp(Date.now());
   // req.body.updatedAt = formatTimestamp(Date.now());
   req.body.createdAt = Date.now();
-  req.body.updatedAt = Date.now();
+
 }
 
 function handlePatchRequest(req) {
-  req.body.updatedAt = formatTimestamp(Date.now());
+  // req.body.updatedAt = formatTimestamp(Date.now());
+  req.body.updatedAt = Date.now();
+
 }
 
 function generateUniqueId() {
