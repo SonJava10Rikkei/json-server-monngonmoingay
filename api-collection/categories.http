@@ -12,17 +12,17 @@ POST {{baseUrl}}/categories
 Content-Type: application/json
 
 {
-    "name":"Laptop"
+    "name":"Món nướng"
 }
 
 ###
 
 # @name updateCategory
-PATCH  {{baseUrl}}/categories/736533
+PATCH  {{baseUrl}}/categories/92478
 Content-Type: application/json
 
 {
-    "name":"Electronics new"
+    "name":"Món xào"
 }
 
 ###

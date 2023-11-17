@@ -7,6 +7,11 @@ GET {{baseUrl}}/uploadedFiles
 
 ###
 
+# @name filterProducts
+GET {{baseUrl}}/uploadedFiles?filename=163542_1000000096.jpg
+
+###
+
 # @name addNewUploadedFiles
 POST {{baseUrl}}/uploadedFiles
 Content-Type: application/json

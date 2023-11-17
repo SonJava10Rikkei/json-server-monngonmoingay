@@ -6,6 +6,20 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const fs = require('fs');
 
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+// Đường dẫn đến thư mục chứa các tệp tĩnh (hình ảnh, v.v.)
+const staticPath = path.join(__dirname, './public/uploads');
+app.use('/uploadedFiles', express.static(staticPath));
+
+// Thêm endpoint để lấy thông tin về các tệp tin đã tải lên
+app.get('/uploadedFiles', (req, res) => {
+  res.jsonp(uploadedFiles);
+});
+
 // Set default middlewares (logger, static, cors, and no-cache)
 server.use(middlewares);
 
@@ -43,10 +57,13 @@ server.post('/api/upload', upload.single('uploaded_file'), (req, res) => {
 
   // Save file information to the uploadedFiles array
   const fileInfo = {
-    id: generateUniqueId(),
+    // id: generateUniqueId(),
+    // filename: file.filename,
+    // createdAt: formatTimestamp(Date.now()),
+    // updatedAt: formatTimestamp(Date.now()),
     filename: file.filename,
-    createdAt: formatTimestamp(Date.now()),
-    updatedAt: formatTimestamp(Date.now()),
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
   };
 
   // Load existing data from db.json
@@ -111,10 +128,12 @@ function isPostRequest(req, path) {
 }
 
 function handlePostRequest(req) {
-  const uniqueId = generateUniqueId();
-  req.body.id = uniqueId;
-  req.body.createdAt = formatTimestamp(Date.now());
-  req.body.updatedAt = formatTimestamp(Date.now());
+  // const uniqueId = generateUniqueId();  
+  // req.body.id = uniqueId;
+  // req.body.createdAt = formatTimestamp(Date.now());
+  // req.body.updatedAt = formatTimestamp(Date.now());
+  req.body.createdAt = Date.now();
+  req.body.updatedAt = Date.now();
 }
 
 function handlePatchRequest(req) {

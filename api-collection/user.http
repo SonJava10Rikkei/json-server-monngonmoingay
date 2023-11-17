@@ -1,0 +1,38 @@
+@baseUrl = http://localhost:3000/api
+
+# Categories
+
+# @name getuser
+GET {{baseUrl}}/user
+
+###
+
+# @name addNewuser
+POST {{baseUrl}}/user
+Content-Type: application/json
+
+{
+   
+    "name":"son",
+    "username": "admin",
+    "password":"111",
+    "avatar":"https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae"
+
+}
+
+###
+
+# @name updateuser
+PATCH  {{baseUrl}}/user/k0zIWwe
+Content-Type: application/json
+
+{
+    "name": "trang",
+    "username":"trang",
+    "avatar": "https://firebas.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae"
+}
+
+###
+
+# @name deleteCategory
+DELETE  {{baseUrl}}/user/Ig-k4qq

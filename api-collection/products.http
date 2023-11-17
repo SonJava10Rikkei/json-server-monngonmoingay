@@ -9,12 +9,12 @@ GET {{baseUrl}}/{{resourceName}}
 ###
 
 # @name filterProducts
-GET {{baseUrl}}/{{resourceName}}?id=11
+GET {{baseUrl}}/{{resourceName}}?id=1
 
 ###
 
 # @name filterProductsLike
-GET {{baseUrl}}/{{resourceName}}?name_like=cotton
+GET {{baseUrl}}/{{resourceName}}?nameProduct_like=canh
 
 ###
 
@@ -52,7 +52,6 @@ Content-Type: application/json
     "name": "Small Concrete Pizza",
     "color": "gold",
     "price": 555,
-    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     "thumbnailUrl": "http://placeimg.com/600/400"
   }
 

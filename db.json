@@ -1,17 +1,42 @@
 {
-  "uploadedFiles": [
+  "uploadedFiles": [],
+  "user": [
     {
-      "id": 797839,
-      "filename": "163542_1000000096.jpg",
-      "createdAt": "02:43:04, 16/11/2023",
-      "updatedAt": "02:43:04, 16/11/2023"
+      "id": "admin",
+      "name": "admin",
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
+      "createdAt": 1700217078910,
+      "updatedAt": 1700217078910
+    },
+    {
+      "id": "adminPm",
+      "name": "adminPm",
+      "username": "adminPm",
+      "password": "adminPm",
+      "email": "adminPm@gmail.com",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
+      "createdAt": 1700218199499,
+      "updatedAt": 1700218199499
+    },
+    {
+      "name": "trang",
+      "username": "trang",
+      "password": "1lk11",
+      "avatar": "https://firebas.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
+      "createdAt": 1700220126202,
+      "updatedAt": "18:25:32, 17/11/2023",
+      "id": "k0zIWwe"
     }
   ],
+
   "categories": [
     {
       "id": 1,
       "nameCategory": "Món ăn cho cả nhà",
-      "avatarCategory": "IMAGES.CTGMonAnChoCaNha",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/mon-an-cho-ca-nha.jpg?alt=media&token=8ebffee5-61e7-49ab-ab2d-e0079fed3288",
       "type": "món ăn",
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:39:17, 15/11/2023"
@@ -19,7 +44,7 @@
     {
       "id": 2,
       "nameCategory": "Món ăn khai vị và tráng miệng",
-      "avatarCategory": "IMAGES.CTGMonKhaiVi",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/salad-ca-ngu.jpg?alt=media&token=340d475b-128b-482b-97e5-ca271299f4aa",
       "type": "món ăn",
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
@@ -27,15 +52,15 @@
     {
       "id": 3,
       "nameCategory": "Công thức pha nước chấm",
-      "avatarCategory": "IMAGES.CTGNuocCham",
-      "type": "(công thức)",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-lma-nuoc-mam-gung-an-bun-mang-vit.jpg?alt=media&token=3e7c8f23-1a9f-435f-8968-4b8cf9053fc3",
+      "type": "công thức",
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
     },
     {
       "id": 4,
       "nameCategory": "Công thức các món canh ngon",
-      "avatarCategory": "IMAGES.CTGMonCanh",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/canh-ngao-chua-nau-sau.jpg?alt=media&token=9bc3ac2b-468a-4b74-836d-4728f2f16696",
       "type": "món ăn",
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
@@ -43,7 +68,7 @@
     {
       "id": 5,
       "nameCategory": "Các món cơm chiên",
-      "avatarCategory": "IMAGES.CTGComChien",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/com-rang-dua-bo.jpg?alt=media&token=c2c267da-ff0d-4a9e-8981-9ca805107c36",
       "type": "món ăn",
       "createdAt": "02:38:28, 15/11/2023",
       "updatedAt": "02:38:28, 15/11/2023"
@@ -51,7 +76,7 @@
     {
       "id": 6,
       "nameCategory": "Món ăn chơi",
-      "avatarCategory": "IMAGES.CTGMonAnVat",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/banh-trang-tron-chay-cach-lam-mon-an-vat-chay.jpg?alt=media&token=804454c5-6e48-4e22-93cb-e2963d7a47ae",
       "type": "món ăn",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
@@ -59,7 +84,7 @@
     {
       "id": 7,
       "nameCategory": "Món xào",
-      "avatarCategory": "IMAGES.CTGMonXao",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/thit-de-xao-cu-hanh.jpg?alt=media&token=c2e75d46-2322-4874-8b30-43be6d8c072d",
       "type": "món ăn",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
@@ -67,7 +92,7 @@
     {
       "id": 8,
       "nameCategory": "Các món lẩu",
-      "avatarCategory": "IMAGES.CTGMonLau",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-nau-lau-ca-keo-la-giang.jpg?alt=media&token=ae5746a4-5519-40cf-bbfb-b00166eb8629",
       "type": "món ăn",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
@@ -75,7 +100,7 @@
     {
       "id": 9,
       "nameCategory": "Các món bún, miến",
-      "avatarCategory": "IMAGES.CTGMonBun",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/bun-mang-vit.jpg?alt=media&token=b4877185-38cd-425b-ae32-afab538a1443",
       "type": "món ăn",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
@@ -83,24 +108,24 @@
     {
       "id": 10,
       "nameCategory": "Trà, cafe",
-      "avatarCategory": "IMAGES.CTGTraCafe",
-      "type": "(công thức)",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/tra-sua-tran-chau-duong-den.jpg?alt=media&token=7e29e402-9eff-496a-8fb1-6cb401dbed0c",
+      "type": "công thức",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
     },
     {
       "id": 11,
       "nameCategory": "Sinh tố, kem",
-      "avatarCategory": "IMAGES.CTGSinhTo",
-      "type": "(công thức)",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/uong-nuoc-ep-ca-chua-moi-ngay.jpg?alt=media&token=e0955ecb-573a-4134-bb51-bdeb49f58374",
+      "type": "công thức",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
     },
     {
       "id": 12,
       "nameCategory": "Công thức pha rượu, cốc tai",
-      "avatarCategory": "IMAGES.CTGRuouCocTai",
-      "type": "(công thức)",
+      "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/nuoc-ep-oi.jpg?alt=media&token=4ba9d9d9-dace-4974-94ee-628640920674",
+      "type": "công thức",
       "createdAt": "02:38:37, 15/11/2023",
       "updatedAt": "02:38:37, 15/11/2023"
     }
@@ -108,14 +133,13 @@
   "products": [
     {
       "id": 1,
-      "categoryId": 1,
+      "categoryId": 2,
       "nameProduct": "Cơm hến Huế",
       "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "URL_IMAGE_HERE"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
         }
       ],
       "description": [
@@ -160,55 +184,54 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước làm",
+            "steps": "Các bước làm",
             "detail": [
               {
-                "name": "1. Nấu cơm",
+                "step": "1. Nấu cơm",
                 "content": "Chọn loại gạo tẻ ngon dẻo, mang đi vo sạch rồi đổ nước vào nấu chín. Cơm chín, để nguội rồi đánh cho tơi hạt.",
-                "image": "IMAGES.dishComHenHueComTrang"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-nau-com-hen.jpg?alt=media&token=5b894da9-dd3d-4d2c-89de-c65c15693ec1"
               },
               {
-                "name": "2. Sơ chế hến và nguyên liệu khác",
+                "step": "2. Sơ chế hến và nguyên liệu khác",
                 "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
-                "image": "IMAGES.dishComHenHueSoChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-lam-com-hen-hue-ngon.jpg?alt=media&token=0359c2ef-7cae-431f-84c1-1bfda5b7cd8b"
               },
               {
-                "name": "3. Xào hến",
+                "step": "3. Xào hến",
                 "content": "Đun nóng chảo, phi thơm hành và tỏi băm với 2 muỗng canh dầu ăn rồi cho phần thịt hến vào xào nhanh với lửa lớn.\n Nêm vào chảo hến 1 muỗng canh nước mắm, 1/2 muỗng canh đường, 1/2 muỗng canh bột ngọt, 1/2 muỗng cà phê tiêu xay và rau răm cắt nhỏ.\n Xào đều tay đến khi hến thấm gia vị và dậy mùi rau răm thơm nồng thì tắt bếp.",
                 "image": "IMAGES.dishComHenHueXaoHen"
               },
               {
-                "name": "4. Nấu nước hến",
+                "step": "4. Nấu nước hến",
                 "content": "Nước luộc hến cho vào nồi đun sôi cùng với vài lát gừng và 1/2 muỗng canh hạt nêm rồi khuấy đều. Gừng sẽ giúp cân bằng lại tính hàn của hến. Đun sôi nước canh và giữ nóng đến khi dùng.",
-                "image": "IMAGES.dishComHenHueNuocHen"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cong-thuc-nau-com-hen.jpg?alt=media&token=45faa5ec-ed23-45e0-bd13-1416744240f9"
               },
               {
-                "name": "5. Xào mắm ruốc ăn kèm",
+                "step": "5. Xào mắm ruốc ăn kèm",
                 "content": "Đun nóng 2 muỗng canh dầu ăn, cho tỏi và ớt băm vào phi thơm. Tiếp theo, cho 2 muỗng canh mắm ruốc vào chảo, dùng muỗng tán cho ruốc tan ra.\n Sau đó thêm vào 3 muỗng canh nước luộc hến và 1 muỗng canh đường để làm dịu vị mắm ruốc, khuấy đều rồi đun sôi lên là được.",
-                "image": "IMAGES.dishComHenHueManRuoc"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/quan-com-hen-ngon.jpg?alt=media&token=51755d2f-8864-4027-8684-b352cb40e20d"
               },
               {
-                "name": "6. Thành phẩm & thưởng thức",
+                "step": "6. Thành phẩm & thưởng thức",
                 "content": "Cơm xới ra tô, xúc vào vài muỗng hến xào, cho lần lượt bạc hà, rau sống, rau thơm, khế, da heo chiên giòn, rắc thêm đậu phộng rang, rưới mắm ruốc lên trên, trộn đều rồi thưởng thức.\n Dọn kèm chén nước canh hến nóng hổi để chan vào cơm hay ăn riêng đều được. Bạn có thể cho thêm chanh, ớt chưng tùy sở thích.",
-                "image": "IMAGES.dishComHenHueDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/com-hen-hue.jpg?alt=media&token=dfdb0c10-607f-4659-af66-7b37e002ad99"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 2,
-      "categoryId": 3,
+      "categoryId": 4,
       "nameProduct": "Canh ghẹ rau muống",
       "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishCanhGheRauMuong"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/canh-ghe-rau-muong.jpg?alt=media&token=6768596d-e3ac-493d-8589-eb821ce0218b"
         }
       ],
       "description": [
@@ -232,40 +255,39 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước làm",
+            "steps": "Các bước làm",
             "detail": [
               {
-                "name": "1. Sơ chế nguyên liệu",
+                "step": "1. Sơ chế nguyên liệu",
                 "content": "Ghẹ sống mua về bạn khoan hãy tháo dây buộc, mà dùng kéo hay mũi dao nhọn chọc thẳng vào phần chóp dưới yếm ghẹ cho đến khi các càng và chân duỗi thẳng ra.\n Tiếp đến, bạn dùng bàn chải chà sạch lớp vỏ bên ngoài, rồi cắt bỏ phần yếm, tách mai và bỏ phần nang mềm. Nếu là ghẹ cái, bạn lấy hết phần gạch ở mai ghẹ, cho vào chén.\n Rau muống nhặt lấy phần ngọn non, bỏ bớt lá rồi rửa sạch, vặn thành từng khúc ngắn vừa ăn.\n Hành tím bóc vỏ, rửa sạch, băm nhỏ.",
-                "image": "IMAGES.dishCanhGheRauMuongSoChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-nau-canh-ghe-rau-muong.jpg?alt=media&token=b774db04-4672-418a-9da1-aaa118b54e71"
               },
               {
-                "name": "2. Nấu canh",
+                "step": "2. Nấu canh",
                 "content": "Bắc nồi lên bếp, thêm vào 1 muỗng canh dầu ăn rồi cho hành tím băm nhỏ vào phi vàng. Khi hành đã dậy mùi thơm, nhanh tay cho ghẹ vào xào, nêm vào 1 muỗng cà phê hạt nêm. Ở bước này, nếu có gạch thì bạn cho gạch vào xào trước rồi sau đó mới cho ghẹ.\n Xào đến khi ghẹ chuyển sang màu đỏ thì cho vào nồi một lượng nước đủ dùng, mở lửa lớn. Khi nước sôi và thịt ghẹ đã chín, nêm nếm lại với nước mắm, hạt nêm cho vừa miệng.\n Cho rau muống vào, đợi nước sôi lại nêm thêm 1/2 muỗng cà phê bột ngọt rồi tắt bếp.",
-                "image": "IMAGES.dishCanhGheRauMuongNauCanh"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/ghe-sua-nau-rau-muong-ca-chua.jpg?alt=media&token=c5255d98-6fe4-4650-b034-1aca7e9cb2cc"
               },
               {
-                "name": "3. Trình bày và thưởng thức",
+                "step": "3. Trình bày và thưởng thức",
                 "content": "Múc canh ra tô, trang trí theo ý thích, vậy là món canh ghẹ rau muống đã hoàn thành.\n Vị ngọt thơm tự nhiên từ thịt ghẹ kết hợp với rau muống xanh giòn và nước dùng ngọt thanh mang lại cho người thưởng thức món canh cảm giác thích thú và lạ miệng.\n Canh ghẹ nấu rau muống nên dùng khi còn nóng, ăn kèm với bún hay cơm trắng đều ngon. Đừng quên chuẩn bị chén muối tiêu chanh chấm thịt ghẹ để tăng thêm vị ngon ngọt cho món ăn.",
-                "image": "IMAGES.dishCanhGheRauMuongDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/ghe-nau-canh-rau-muong-ngon.jpg?alt=media&token=68a94495-41c8-4ebb-9e54-6f813d5a31cd"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 3,
-      "categoryId": 1,
+      "categoryId": 7,
       "nameProduct": "Chả bò",
       "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishChaBo"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cha-bo.jpg?alt=media&token=7838b88f-f0dc-42d4-b20c-9d9ad7c2835f"
         }
       ],
       "description": [
@@ -306,45 +328,44 @@
               {
                 "name": "1. Sơ chế thịt bò, mỡ heo",
                 "content": "Thịt bò mua về làm sạch, cắt nhỏ, rửa với nước đá lạnh rồi lau thật khô và cho ngay vào ngăn đông tủ lạnh trong 1 tiếng.\n\nMỡ heo làm sạch, lấy 150g cắt nhỏ rồi cho vào tủ đông đá trong 1 tiếng.\n\n Phần mỡ còn lại đem đi luộc trong 3 phút rồi vớt ra cắt hạt lựu, ướp với 1 muỗng canh đường và trộn đều.",
-                "image": "IMAGES.dishChaBoSoChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/quet-thit-va-chu-y-den-nhiet-do-cua-gio.jpg?alt=media&token=c914c55f-f176-47eb-9673-a75970b93e07"
               },
               {
                 "name": "2. Làm giò sống",
                 "content": "Thịt bò, mỡ heo sau khi được đông lạnh, bạn cho vào cối xay công suất lớn và xay nhuyễn trong 20 giây.\nSau đó, bạn nêm vào 2 muỗng canh nước mắm ngon (40 độ đạm), 1 muỗng cà phê đường cùng ½ muỗng cà phê bột ngọt và xay thêm 1 lần nữa khoảng 30 giây.\n\nDùng 2 viên nước đá nhỏ (40 – 45g), đập nhuyễn rồi cho vào cối xay, tiến hành xay thịt trong 10 giây rồi dùng đũa trộn đều 1 lần, làm lần lượt như vậy 3 lần, bạn sẽ thấy thịt quánh dẻo.\n\nLúc này, bạn nhanh tay cho 1 muỗng canh tinh bột khoai tây, ½ muỗng cà phê bột nổi vào thịt và tiếp tục xay 10 giây, tắt máy trộn đều, làm 2 lần như vậy. Sau đó, bạn tăng tốc máy và xay thêm 30 giây.\n\nThịt sau khi xay xong, bạn trải đều ra màng bọc thực phẩm, gói lại và đặt trong ngăn đông để làm lạnh.",
-                "image": "IMAGES.dishChaBoXayThit"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/gio-bo-duoc-tron-deu-cung-mo-rau-thi-la.jpg?alt=media&token=0c4d47be-4c7d-4a94-adf7-90a3e683243a"
               },
               {
                 "name": "3. Sơ chế các nguyên liệu khác",
                 "content": "Tiêu đem đi giã sơ, tỏi bóc vỏ và băm nhuyễn. Thì là làm sạch và cắt thật nhuyễn.\n\nLá chuối bạn rửa sạch, trụng sơ qua nước sôi và lau khô.\n\nXay giò sống thêm một lần nữa\nGiò bò sau khi làm lạnh trở lại, bạn lấy ra và cho vào cối cùng tiêu, tỏi đã sơ chế, xay thêm 1 phút.\n\nSau đó, bạn trút tất cả ra âu và cho thì là cùng mỡ heo cắt nhỏ ướp đường vào, trộn đều.",
-                "image": "IMAGES.dishChaBoSoCheKhac"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cach-lam-cha-bo.jpg?alt=media&token=8ea37c9b-3751-4db1-9ab2-90a5cf0c77a8"
               },
               {
                 "name": "4. Gói chả bò",
                 "content": "Giò bò sau khi đã được xay quánh mịn và trộn đều cùng các gia vị, bạn cho ngay ra lá chuối và gói chặt tay.",
-                "image": "IMAGES.dishChaBoGoiCha"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/goi-gio-bang-la-chuoi.jpg?alt=media&token=77b32411-e052-4e89-93ac-7e8a060b4000"
               },
               {
                 "name": "5. Luộc chả",
                 "content": "Chả sau khi gói xong bạn cho vào nồi luộc khoảng 35 phút, vớt ra để nguội là có thể thưởng thức.",
-                "image": "IMAGES.dishChaBoDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/thanh-pham-sau-thi-duoc-luoc-chin.jpg?alt=media&token=b0c44629-f060-4f9f-844b-ac3adc7ca513"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 4,
-      "categoryId": 1,
+      "categoryId": 5,
       "nameProduct": "Chả lụa siêu dễ",
       "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishChaLua"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcha-lua.jpg?alt=media&token=26b5676d-7a8c-4808-826a-1ec8d962cd36"
         }
       ],
       "description": [
@@ -365,55 +386,54 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước làm",
+            "steps": "Các bước làm",
             "detail": [
               {
-                "name": "1. Sơ chế nguyên liệu",
+                "step": "1. Sơ chế nguyên liệu",
                 "content": "Thịt heo bạn nên mua loại có thêm ít mỡ để chả lụa có vị béo ngon hấp dẫn hơn. Thịt đem về chà xát với muối cho bớt hôi tanh rồi rửa sạch. Sau đó cho thịt vào cối xay, xay nhuyễn.\n\nLá chuối rửa sạch, lau khô.",
                 "image": ""
               },
               {
-                "name": "2. Pha chế gia vị nêm thịt",
+                "step": "2. Pha chế gia vị nêm thịt",
                 "content": "Cho vào chén lần lượt các gia vị gồm: 4 muỗng cà phê đường, 2 muỗng cà phê bột nêm gà, ½ muỗng cà phê bột nổi, 2,5 muỗng canh tinh bột khoai tây,\n\n 5 muỗng canh nước lạnh, 2 muỗng canh nước mắm, 4 muỗng canh dầu ăn, khuấy đều để hỗn hợp đồng nhất.",
-                "image": "IMAGES.dishChaLuaPhaChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcach-lam-cha-lua.jpg?alt=media&token=f1e0c63a-4048-4427-ad63-428d3f3ad8a3"
               },
               {
-                "name": "3. Ướp thịt",
+                "step": "3. Ướp thịt",
                 "content": "Thịt sau khi xay nhuyễn bạn cho vào 1 cái túi rồi đổ hỗn hợp nước gia vị ở bước 2 vào và bóp đều tay, cách làm này sẽ giúp thịt được hài hòa gia vị hơn. Sau đó, bạn dàn thịt ra cho mỏng trong túi nilon rồi cất vào tủ đá 4 tiếng.",
-                "image": "IMAGES.dishChaLuaUopThit"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcach-lam-cha-lua-tai-nha.jpg?alt=media&token=869726e2-39fc-45c2-b0a3-4264e522bce8"
               },
               {
-                "name": "4. Quết thịt",
+                "step": "4. Quết thịt",
                 "content": "Thịt sau khi làm đông, bạn lấy ra, bẻ thành từng miếng nhỏ cho vào máy quết. 2 phút đầu quết với tốc độ thấp, 5 phút sau quết với tốc độ trung bình và thêm 5 phút quết với tốc độ cao.\n\n Sau đó bạn cho vào 1 muỗng cà phê bột hành cùng ¼ muỗng cà phê tiêu trắng, tiếp tục quết thịt với tốc độ cao thêm 1 phút.",
-                "image": "IMAGES.dishChaLuaQuetThit"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcach-lam-cha-lua-de-ban.jpg?alt=media&token=7ecf3033-b97c-4f4a-90e8-9a78c0bf91b9"
               },
               {
-                "name": "5. Gói thịt và đem hấp",
+                "step": "5. Gói thịt và đem hấp",
                 "content": "Thịt sau khi quết xong bạn xúc ra màng bọc thực phẩm để định hình, sau đó đặt vào lá chuối và quấn chặt 1 – 2 lớp. Tiếp tục quấn thêm một lớp giấy bạc bên ngoài rồi bạn cho vào nồi hấp chín khoảng 40 phút.",
-                "image": "IMAGES.dishChaLuaGoiThit"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcach-lam-cha-lua-hue.jpg?alt=media&token=73cb1257-96f8-404c-98e3-6d7e70e2ccfb"
               },
               {
-                "name": "6. Hoàn thành và thưởng thức",
+                "step": "6. Hoàn thành và thưởng thức",
                 "content": "Giò lụa sau khi hấp xong bạn có thể sử dụng ngay hoặc bảo quản để dùng dần.",
-                "image": "IMAGES.dishChaLuaDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcha-lua-thit-heo.jpg?alt=media&token=d68aefc9-3439-454c-827d-c81422964e30"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 5,
-      "categoryId": 1,
+      "categoryId": 6,
       "nameProduct": "Cháo cá phô mai",
       "price": 60000,
       "quantity": 30,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishChaoCaPhoMai"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaoCaPhoMai%2Fchao-ca-hoi-cai-bo-xoi-pho-mai.jpg?alt=media&token=29782b00-456c-47b6-aae2-8e66f5df422d"
         }
       ],
       "description": [
@@ -448,40 +468,39 @@
               {
                 "name": "1. Sơ chế cá hồi",
                 "content": "Cá hồi mua về rửa sạch với nước muối pha loãng, hoặc nếu có thời gian bạn ngâm cá trong sữa tươi không đường khoảng 20 phút, rồi rửa lại bằng nước gừng để khử mùi tanh. Dùng khăn thấm khô cá.\n\nTiếp đến, bạn lọc hết xương cá để tránh mắc nghẹn hay bị hóc khi cho bé ăn.\n\n Sau đó, cho cá vào máy xay, xay nhuyễn. Thêm vào 2 muỗng canh nước lọc rồi đem cá đi hấp chín.",
-                "image": "IMAGES.dishChaoCaPhoMaiCaHoi"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaoCaPhoMai%2Fcach-nau-chao-ca-hoi-pho-mai.jpg?alt=media&token=2b99e1e5-d5d9-448c-aa8f-0e231352c8b5"
               },
               {
                 "name": "2. Sơ chế các nguyên liệu khác",
                 "content": "Gạo đem vo sạch rồi ngâm với nước từ 30 phút đến 1 tiếng để khi nấu cháo sẽ nhanh nhừ hơn.\n\nNấm hương ngâm với nước muối trong khoảng 1 giờ, rồi vớt ra rửa sạch. Bạn cắt bỏ chân nấm rồi băm nhuyễn, xong cũng đem đi hấp chín.\n\nHành ngò nhặt bỏ gốc và lá vàng úa, rửa sạch, cắt nhuyễn",
-                "image": "IMAGES.dishChaoCaPhoMaiSoChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaoCaPhoMai%2Fchao-ruoc-ca-hoi-pho-mai-cho-be-an-dam.jpg?alt=media&token=ab5d80de-a274-4919-8557-0b3ce7542030"
               },
               {
                 "name": "3. Nấu cháo",
                 "content": "Cho gạo vào nồi cùng với một lượng nước vừa đủ, bật bếp đun sôi rồi hạ lửa nhỏ để cháo chín nhừ. Trong quá trình nấu, thỉnh thoảng khuấy đều để cháo không bị khê, vớt hết bọt nổi phía trên.",
-                "image": "IMAGES.dishChaoCaPhoMaiNauChao"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaoCaPhoMai%2Fchao-ca-hoi-bi-do-pho-mai.jpg?alt=media&token=bdbaa5e7-9dac-42d6-b5c2-8f7817173a3f"
               },
               {
                 "name": "4. Hoàn thành & thưởng thức",
                 "content": "Khi cháo đã nhừ, bạn cho nấm hương và cá hồi đã hấp chín vào nồi, khuấy đều cho hỗn hợp hòa quyện. Thêm 1 muỗng canh dầu mè vào cháo để tăng thêm hương vị và dinh dưỡng cho bé. \n\nCuối cùng, cho phô mai vào rồi nêm nếm lại gia vị cho vừa miệng. Trước khi tắt bếp bạn cho hành ngò đã chuẩn bị vào, món cháo sẽ bắt mắt và hấp dẫn hơn.",
-                "image": "IMAGES.dishChaoCaPhoMaiDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaoCaPhoMai%2Fchao-ca-hoi-pho-mai-mon-chao-an-dam-dinh-duong-cho-tre.jpg?alt=media&token=a7ca1329-2c30-43a7-ad3d-a6a787c8ba58"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 6,
-      "categoryId": 2,
+      "categoryId": 7,
       "nameProduct": "Gỏi dưa leo",
       "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishGoiDuaLeo"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiDuaLeo%2Fgoi-dua-leo-kho-ca-sac.jpg?alt=media&token=e542c760-4f6f-4add-990c-443b6171baef"
         }
       ],
       "description": [
@@ -514,47 +533,46 @@
             ]
           },
           "makeFood": {
-            "name": "Cách thực hiện",
+            "steps": "Cách thực hiện",
             "detail": [
               {
-                "name": "1. Sơ chế nguyên liệu",
+                "step": "1. Sơ chế nguyên liệu",
                 "content": "Dưa leo rửa sạch, gọt bớt vỏ rồi cắt khoanh tròn mỏng.\n\nTỏi bóc vỏ, băm nhỏ.\n\nỚt tươi rửa sạch, 2 quả cắt lát để trộn gỏi, 2 quả giã hoặc băm nhỏ làm nước trộn.\n\nHành lá và các loại rau thơm nhặt sạch, ngâm với nước muối loãng rồi vớt ra, để ráo, sau đó cắt khúc.",
-                "image": "IMAGES.dishGoiDuaLeoSoChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiDuaLeo%2Fgoi-dua-le-kho-ca-sac.jpg?alt=media&token=e3e276f5-5a23-46d9-89df-b49dea420596"
               },
               {
-                "name": "2. Nướng khô",
+                "step": "2. Nướng khô",
                 "content": "Chuẩn bị bếp nướng, đặt vỉ nướng lên bếp rồi cho khô lên trên, nướng đến khi cá xém vàng và dậy mùi thơm là được. Trong quá trình nướng nhớ trở hai mặt để cá chín đều. Bạn nướng khô cá trên bếp than sẽ thơm ngon hơn nướng bằng bếp gas.\n\nKhô cá nướng xong bạn gỡ bỏ xương rồi xé thành từng miếng nhỏ vừa ăn.",
-                "image": "IMAGES.dishGoiDuaLeoNuongCa"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiDuaLeo%2Fcach-lam-goi-dua-leo-kho-ca-sac.jpg?alt=media&token=01ffb038-aee4-4a87-9531-4e194c322621"
               },
               {
-                "name": "3. Làm nước mắm trộn gỏi",
+                "step": "3. Làm nước mắm trộn gỏi",
                 "content": "Hòa tan 1 muỗng canh nước lọc và 2 muỗng cà phê đường, khuấy đều cho đường tan hết. Thêm vào 1 muỗng canh nước mắm và nước cốt 1/2 quả chanh. Sau đó cho tỏi và ớt băm nhỏ vào là xong.\n\n Bạn có thể gia giảm lượng nước mắm, đường, nước cốt chanh sao cho vừa khẩu vị.",
-                "image": "IMAGES.dishGoiDuaLeoLamMamTron"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiDuaLeo%2Flam-nuoc-tron-goi.jpg?alt=media&token=06416525-4f52-4ffe-847b-de9d8814243a"
               },
               {
-                "name": "4. Hoàn thành gỏi dưa leo khô cá sặc",
+                "step": "4. Hoàn thành gỏi dưa leo khô cá sặc",
                 "content": "Cho dưa leo, hành lá, rau thơm và 1/2 cá sặc đã xé nhỏ vào tô, rưới thêm nước mắm rồi trộn đều.\n\nGắp gỏi ra dĩa, cho phần cá còn lại lên trên, rắc thêm đậu phộng rang hoặc hành phi nếu thích. Trang trí với rau mùi và vài lát ớt tươi cho bắt mắt.\n\nKhi ăn, bạn có thể chấm thêm nước mắm chua ngọt, dùng kèm với bánh phồng tôm hay bánh tráng mè nướng lại càng hấp dẫn.",
-                "image": "IMAGES.dishGoiDuaLeoDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiDuaLeo%2Fgoi-kho-ca-sac-thom-ngon-hap-dan.jpg?alt=media&token=601c7bed-d7dc-4a30-95dd-f8b82903f924"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 7,
+      "categoryId": 10,
       "nameProduct": "Kem Overnight Oat",
       "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishOvernightOat"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FKemOvernightOat%2Fovernight-oats-cach-lam.jpg?alt=media&token=229e67a8-661f-454d-b23d-58ce33a0eeb8"
         }
       ],
-      "category": "listCategories[5]",
       "description": [
         {
           "name": "Overnight oats được biết đến là yến mạch ngâm qua đêm cùng sữa, sữa chua, hoa quả,… tạo thành hỗn hợp thực phẩm cực kỳ tiện lợi, dễ ăn và chứa đầy đủ dưỡng chất như xơ, tinh bột, đạm, béo,…",
@@ -585,35 +603,34 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước làm",
+            "steps": "Các bước làm",
             "detail": [
               {
-                "name": "1. Các bước làm overnight oats truyền thống",
+                "step": "1. Các bước làm overnight oats truyền thống",
                 "content": "Lấy 5 trái dâu tây cho vào tô và nghiền nhỏ.\n\nLần lượt cho yến mạch, sữa chua, sữa đậu nành, hạt chia, mật ong, bơ đậu phộng đã chuẩn bị vào tô dâu tây nghiền, trộn đều.\n\nĐặt hỗn hợp vào ngăn mát tủ lạnh và để qua đêm.",
-                "image": "IMAGES.dishOvernightOatSoChe"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FKemOvernightOat%2Fovernight-oats-la-gi.jpg?alt=media&token=76e3a46e-e332-45a2-9f52-eaeefa06d561"
               },
               {
-                "name": "2. Thành phẩm",
+                "step": "2. Thành phẩm",
                 "content": "Hôm sau, khi muốn thưởng thức món ăn này, bạn chỉ cần lấy ra dùng ngay hoặc cho thêm dâu tây cùng các loại hạt dinh dưỡng là được.",
-                "image": "IMAGES.dishOvernightOatThanhPham"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FKemOvernightOat%2Fovernight-oat.jpg?alt=media&token=9f90a81f-8918-4295-8231-2a8feeb39039"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 8,
-      "categoryId": 7,
+      "categoryId": 11,
       "nameProduct": "Phở xào",
       "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishPhoXao"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Fpho-xao.jpg?alt=media&token=c24332d4-8da1-48b1-9ade-e34090629b86"
         }
       ],
       "description": [
@@ -652,52 +669,51 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước làm",
+            "steps": "Các bước làm",
             "detail": [
               {
-                "name": "1. Chuẩn bị nguyên liệu",
+                "step": "1. Chuẩn bị nguyên liệu",
                 "content": "Tỏi, hành tím bóc vỏ, băm nhuyễn Thịt bò chà xát muối, rửa sạch nhiều lần, để ráo và cắt thành từng miếng nhỏ vừa ăn.\n\n Sau đó cho thịt vào âu ướp với chút tỏi, hành tím băm, 1,5 muỗng canh dầu hào, 1 muỗng canh nước tương, 1 muỗng cà phê hạt nêm, ½ muỗng cà phê dầu mè, 1 muỗng canh dầu ăn, chút tiêu xay, trộn đều và để khoảng 20 phút cho thịt ngấm gia vị. \n\nHành lá làm sạch, cắt khúc xéo. \n\n Hành tây bóc vỏ, cắt múi cau. \n\nNấm làm sạch, cắt đôi. \n\nCà rốt gọt bỏ vỏ, cắt thành từng lát xéo mỏng. Cải thìa làm sạch, cắt đôi.",
-                "image": "IMAGES.dishPhoXaoCachLam"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Fcach-lam-pho-xao.jpg?alt=media&token=480539e9-6aed-4e88-a19e-ab986a3a3b15"
               },
               {
-                "name": "2. Pha chế xốt xào",
+                "step": "2. Pha chế xốt xào",
                 "content": "Cho vào chén các gia vị gồm: 2 muỗng canh nước tương (hoặc 1 muỗng canh hắc xì dầu), 2 muỗng canh dầu hào, 1 muỗng cà phê đường, 1 muỗng canh dầu ăn, một ít tiêu xay, trộn đều để hỗn hợp đồng nhất.",
-                "image": "IMAGES.dishPhoXaoXot"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Flam-xot-xao-pho.jpg?alt=media&token=66c71fab-5a9f-4652-a0fe-5e0aa8b82e14"
               },
               {
-                "name": "3 .Xào thịt bò và các loại rau củ",
+                "step": "3 .Xào thịt bò và các loại rau củ",
                 "content": "Đặt chảo chống dính lên bếp, đun nóng dầu ăn và phi thơm ít tỏi, hành tím băm. Cho thịt bò đã ướp vào xào chín tái, trút ra dĩa. Tiếp tục sử dụng lại chảo vừa rồi, đun nóng ít dầu ăn và phi thơm tỏi, hành tím băm. \n\nLần lượt cho nấm và cà rốt vào cùng 2 muỗng canh xốt xào, trộn đều. \n\nKhi thấy 2 nguyên liệu đã chín, bạn tiếp tục cho cải thìa vào và xào chín, trút tất cả ra âu, để riêng.",
-                "image": "IMAGES.dishPhoXaoThitBoChinTai"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Fxao-thit-bo-chin-tai.jpg?alt=media&token=f9c3c75b-7375-4777-a7df-1fd1b371a665"
               },
               {
-                "name": "4 .Làm phở xào bò",
+                "step": "4 .Làm phở xào bò",
                 "content": "Cho bánh phở vào âu nước nóng 70 độ C, ngâm khoảng 5 phút, sau đó vớt ra, bỏ nước và ngâm lại với nước nóng 70 độ C thêm một lần nữa. Lúc này, sợi phở đã mềm, bạn dùng đũa khuấy cho tơi rồi trút ra, rửa sạch với nước lạnh và để ráo. Cho bánh phở vào âu, trộn đều cùng phần xốt xào còn lại. \n\nĐặt chảo chống dính lên bếp, đun nóng ít dầu ăn và xào thơm hành lá, hành tây. Sau đó, bạn tiếp tục cho phở đã trộn xốt vào chảo, đảo đều với lửa lớn. \n\nKhi thấy sợi phở đã chín mềm, bạn cho rau cải, thịt bò đã làm ở bước 3 vào, trộn đều. Xào thêm 3 phút là có thể tắt bếp.",
-                "image": "IMAGES.dishPhoXaoAll"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Fcho-tat-ca-nguyen-lieu-vao-xao-roi-tat-bep.jpg?alt=media&token=2be564d4-400a-46a1-80a1-a04a7a5c6406"
               },
               {
-                "name": "5 .Trình bày và thưởc thức",
+                "step": "5 .Trình bày và thưởc thức",
                 "content": "Sau khi thực hiện xong, bạn cho PHỞ XÀO bò ra dĩa, rắc thêm ít tiêu xay lên trên là có thể thưởng thức. Nên dùng ngay khi còn nóng để đảm bảo hương vị cho món ăn bạn nhé!",
-                "image": "IMAGES.dishPhoXaoDone"
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Fthanh-pham-xao-gion-khong-nat.jpg?alt=media&token=d73adad6-036c-4f25-ae7d-862253abf62a"
               }
             ]
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     },
     {
       "id": 9,
+      "categoryId": 1,
       "nameProduct": "Cá biển kho",
       "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
-          "idIMG": 1,
-          "urlImage": "IMAGES.dishCaBienKko"
+            "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCaBienKho%2Fca-bien-kho.jpg?alt=media&token=6bddecaa-82bb-4ee4-aa2a-26cf924bfbc3"
         }
       ],
-      "category": "listCategories[0]",
       "description": [
         {
           "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
@@ -722,12 +738,12 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước thực hiện",
+            "steps": "Các bước thực hiện",
             "detail": [
               {
-                "name": "1. Sơ chế nguyên liệu",
+                "step": "1. Sơ chế nguyên liệu",
                 "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
-                "image": ""
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCaBienKho%2Fcach-kho-ca-bien-ngon.jpg?alt=media&token=506bd54e-b2a9-415a-a1aa-badc560f9973"
               }
             ]
           }
@@ -738,16 +754,15 @@
     },
     {
       "id": 10,
+      "category": 5,
       "nameProduct": "Cá trê lai kho tiêu",
       "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
-          "idIMG": 1,
           "urlImage": "IMAGES.dishComHenHue"
         }
       ],
-      "category": "listCategories[0]",
       "description": [
         {
           "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài. Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
@@ -801,8 +816,8 @@
           }
         }
       ],
-      "createdAt": "02:37:50, 15/11/2023",
-      "updatedAt": "02:37:50, 15/11/2023"
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     }
   ],
   "profile": {
