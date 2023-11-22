@@ -6,13 +6,13 @@
 ---
 
 1. npm i
-2. If you want to create new data for data (Generate data):
-   npm run generate-data
-3. Start project:
-   npm start || npm run dev
-4. Custom random data:
+2. Start project:
+   npm run dev
+3. Custom random data:
    Read file generate-data.js
-5. Your data:
+4. Your data:
    db.json
 
-Happy day !
+- If you want to create new data for data (Generate data):
+  npm run generate-data
+  Happy day !
