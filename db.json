@@ -42,7 +42,7 @@
     },
     {
       "id": 2,
-      "nameCategory": "Món ăn khai vị và tráng miệng",
+      "nameCategory": "Món ăn khai vị",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/salad-ca-ngu.jpg?alt=media&token=340d475b-128b-482b-97e5-ca271299f4aa",
       "type": "món ăn",
       "createdAt": 1700218199499,
@@ -58,7 +58,7 @@
     },
     {
       "id": 4,
-      "nameCategory": "Công thức các món canh ngon",
+      "nameCategory": "Các món canh ngon",
       "avatarCategory": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/canh-ngao-chua-nau-sau.jpg?alt=media&token=9bc3ac2b-468a-4b74-836d-4728f2f16696",
       "type": "món ăn",
       "createdAt": 1700218199499,
@@ -753,13 +753,13 @@
     },
     {
       "id": 10,
-      "category": 5,
+      "categoryId": 5,
       "nameProduct": "Cá trê lai kho tiêu",
       "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
-          "urlImage": "IMAGES.dishComHenHue"
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
         }
       ],
       "description": [
@@ -804,10 +804,144 @@
             ]
           },
           "makeFood": {
-            "name": "Các bước thực hiện",
+            "steps": "Các bước thực hiện",
             "detail": [
               {
-                "name": "1. Sơ chế nguyên liệu",
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": ""
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "nameProduct": "Bò nấu đậu chay",
+      "price": 100000,
+      "quantity": 20,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
+        }
+      ],
+      "description": [
+        {
+          "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài.\n Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
+              {
+                "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": ""
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "nameProduct": "Cua rang muối ớt",
+      "price": 100000,
+      "quantity": 20,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
+        }
+      ],
+      "description": [
+        {
+          "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài. Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
+              {
+                "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
                 "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
                 "image": ""
               }
@@ -818,8 +952,7 @@
       "createdAt": 1700218922615,
       "updatedAt": 1700218922615
     }
-  ],
-  "profile": {
-    "name": "Po"
-  }
+   
+  ]
+ 
 }

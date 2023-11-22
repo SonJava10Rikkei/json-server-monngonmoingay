@@ -14,7 +14,7 @@ GET {{baseUrl}}/{{resourceName}}?id=1
 ###
 
 # @name filterProductsLike
-GET {{baseUrl}}/{{resourceName}}?nameProduct_like=canh
+GET {{baseUrl}}/{{resourceName}}?nameProduct_like=bò
 
 ###
 
