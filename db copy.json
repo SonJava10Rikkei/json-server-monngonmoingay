@@ -30,6 +30,7 @@
       "id": "k0zIWwe"
     }
   ],
+
   "categories": [
     {
       "id": 1,
@@ -131,9 +132,9 @@
   "products": [
     {
       "id": 1,
-      "categoryId": 1,
+      "categoryId": 2,
       "nameProduct": "Cơm hến Huế",
-      "price": 20000,
+      "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
@@ -197,7 +198,7 @@
               {
                 "step": "3. Xào hến",
                 "content": "Đun nóng chảo, phi thơm hành và tỏi băm với 2 muỗng canh dầu ăn rồi cho phần thịt hến vào xào nhanh với lửa lớn.\n Nêm vào chảo hến 1 muỗng canh nước mắm, 1/2 muỗng canh đường, 1/2 muỗng canh bột ngọt, 1/2 muỗng cà phê tiêu xay và rau răm cắt nhỏ.\n Xào đều tay đến khi hến thấm gia vị và dậy mùi rau răm thơm nồng thì tắt bếp.",
-                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cong-thuc-nau-com-hen.jpg?alt=media&token=45faa5ec-ed23-45e0-bd13-1416744240f9"
+                "image": "IMAGES.dishComHenHueXaoHen"
               },
               {
                 "step": "4. Nấu nước hến",
@@ -225,7 +226,7 @@
       "id": 2,
       "categoryId": 4,
       "nameProduct": "Canh ghẹ rau muống",
-      "price": 40000,
+      "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
@@ -279,9 +280,9 @@
     },
     {
       "id": 3,
-      "categoryId": 1,
+      "categoryId": 7,
       "nameProduct": "Chả bò",
-      "price": 50000,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -357,9 +358,9 @@
     },
     {
       "id": 4,
-      "categoryId": 1,
+      "categoryId": 5,
       "nameProduct": "Chả lụa siêu dễ",
-      "price": 60000,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -427,7 +428,7 @@
       "id": 5,
       "categoryId": 6,
       "nameProduct": "Cháo cá phô mai",
-      "price": 80000,
+      "price": 60000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -492,9 +493,9 @@
     },
     {
       "id": 6,
-      "categoryId": 2,
+      "categoryId": 7,
       "nameProduct": "Gỏi dưa leo",
-      "price": 200000,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -562,9 +563,9 @@
     },
     {
       "id": 7,
-      "categoryId": 9,
+      "categoryId": 10,
       "nameProduct": "Kem Overnight Oat",
-      "price": 10000,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -622,9 +623,9 @@
     },
     {
       "id": 8,
-      "categoryId": 7,
+      "categoryId": 11,
       "nameProduct": "Phở xào",
-      "price": 55000,
+      "price": 100000,
       "quantity": 30,
       "imageProduct": [
         {
@@ -705,7 +706,7 @@
       "id": 9,
       "categoryId": 1,
       "nameProduct": "Cá biển kho",
-      "price": 30000,
+      "price": 100000,
       "quantity": 20,
       "imageProduct": [
         {
@@ -749,6 +750,209 @@
       ],
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
+    },
+    {
+      "id": 10,
+      "categoryId": 5,
+      "nameProduct": "Cá trê lai kho tiêu",
+      "price": 100000,
+      "quantity": 20,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
+        }
+      ],
+      "description": [
+        {
+          "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài. Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
+              {
+                "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": ""
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "nameProduct": "Bò nấu đậu chay",
+      "price": 100000,
+      "quantity": 20,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
+        }
+      ],
+      "description": [
+        {
+          "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài.\n Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
+              {
+                "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": ""
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "nameProduct": "Cua rang muối ớt",
+      "price": 100000,
+      "quantity": 20,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
+        }
+      ],
+      "description": [
+        {
+          "name": "Cơm hến không chỉ là đặc sản của người dân xứ Huế mà còn là món ngon nổi tiếng khắp cả nước, thậm chí hấp dẫn cả du khách nước ngoài. Món ăn mộc mạc mà đủ đầy hương vị ngọt thanh của nước dùng hến hòa quyện cùng mắm ruốc sống, da heo chiên giòn, đậu phộng bùi, thịt hến đậm đà, ăn kèm rau sống ngon đúng điệu ",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "Hến tươi: 2kg"
+              },
+              {
+                "2": "Gạo tẻ ngon: 400g"
+              },
+              {
+                "3": "Da heo sấy khô: 50g"
+              },
+              {
+                "4": "Đậu phộng: 150g"
+              },
+              {
+                "5": "Khế: 2 quả"
+              },
+              {
+                "6": "Bạc hà (dọc mùng): 200g"
+              },
+              {
+                "7": "Rau răm: 15g"
+              },
+              {
+                "8": "Hành, tỏi băm: 30g"
+              },
+              {
+                "9": "Mắm ruốc Huế: 2 muỗng canh"
+              },
+              {
+                "10": "Gia vị: muối, nước mắm, dầu ăn, hạt nêm"
+              },
+              {
+                "11": "Rau ăn kèm: hoa chuối, lõi cây chuối non bào, húng lủi, giá sống, ngò rí, ớt xiêm"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": ""
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": 1700218922615,
+      "updatedAt": 1700218922615
     }
+   
   ]
+ 
 }
