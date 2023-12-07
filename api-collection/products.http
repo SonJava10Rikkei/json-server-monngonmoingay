@@ -9,7 +9,7 @@ GET {{baseUrl}}/{{resourceName}}
 ###
 
 # @name filterProducts
-GET http://192.168.9.104:3000/api/products?categoryId=7
+GET http://192.168.9.104:3000/api/products?categoryId=1
 
 ###
 
@@ -58,16 +58,25 @@ Content-Type: application/json
 ###
 
 # @name update
-PATCH  {{baseUrl}}/{{resourceName}}/aa66baeb-d27a-42e0-9205-fa449df3c0b2
+PATCH  {{baseUrl}}/{{resourceName}}/1
 Content-Type: application/json
 
 {
-    "name": "Small dsdConcffrete Pizza Upd  ate",
-    "color": "red",
-    "price": 666
+    "likeStatus": true
   }
 
 ###
+
+# @name update likeStatus
+PUT  http://192.168.9.104:3000/api/products/1
+Content-Type: application/json
+
+{
+   "price": 20044040,
+}
+
+###
+
 
 # @name remove
 DELETE  {{baseUrl}}/{{resourceName}}/11

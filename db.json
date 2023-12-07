@@ -1,12 +1,14 @@
 {
   "uploadedFiles": [],
-  "user": [
+  "roles": ["ADMIN", "PM", "USER"],
+  "users": [
     {
       "id": "admin",
       "name": "admin",
       "username": "admin",
       "password": "admin",
       "email": "admin@gmail.com",
+      "roles": ["ADMIN"],
       "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
       "createdAt": 1700217078910,
       "updatedAt": 1700217078910
@@ -17,17 +19,56 @@
       "username": "adminPm",
       "password": "adminPm",
       "email": "adminPm@gmail.com",
+      "roles": ["ADMIN", "PM"],
       "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
       "createdAt": 1700218199499,
       "updatedAt": 1700218199499
     },
     {
+      "id": "k0zIWwe",
       "name": "trang",
       "username": "trang",
       "password": "1lk11",
+      "email": "trang@gmail.com",
+      "roles": ["USER"],
       "avatar": "https://firebas.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
-      "createdAt": 1700220126202,
-      "id": "k0zIWwe"
+      "createdAt": 1700220126202
+    },
+    {
+      "name": "son",
+      "username": "admin",
+      "password": "111",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
+      "createdAt": 1701857310295,
+      "id": "XnyfW-a"
+    },
+    {
+      "name": "son",
+      "username": "admin",
+      "password": "111",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
+      "createdAt": 1701858753748,
+      "id": "_SZb5is"
+    },
+    {
+      "name": "son",
+      "username": "admin",
+      "password": "111",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/operate_bg.47899f95..png?alt=media&token=dc3e72bd-f0c7-4aa4-827f-2684b9fa75ae",
+      "createdAt": 1701860910217,
+      "id": "PuWoNQ4"
+    },
+    {
+      "username": "admin",
+      "password": "111",
+      "createdAt": 1701861123087,
+      "id": "_r-Uibd"
+    },
+    {
+      "username": "admin",
+      "password": "111",
+      "createdAt": 1701861127646,
+      "id": "cJC85R3"
     }
   ],
   "categories": [
@@ -133,8 +174,9 @@
       "id": 1,
       "categoryId": 1,
       "nameProduct": "Cơm hến Huế",
-      "price": 20000,
+      "price": 555,
       "quantity": 20,
+      "likeStatus": true,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/day-cach-nau-com-hen.jpg?alt=media&token=d0da7253-e9a3-4a71-bbca-65b20c5673bb"
@@ -219,7 +261,7 @@
         }
       ],
       "createdAt": 1700218922615,
-      "updatedAt": 1700218922615
+      "updatedAt": 1701849281962
     },
     {
       "id": 2,
@@ -227,6 +269,7 @@
       "nameProduct": "Canh ghẹ rau muống",
       "price": 40000,
       "quantity": 20,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/canh-ghe-rau-muong.jpg?alt=media&token=6768596d-e3ac-493d-8589-eb821ce0218b"
@@ -283,6 +326,7 @@
       "nameProduct": "Chả bò",
       "price": 50000,
       "quantity": 30,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/cha-bo.jpg?alt=media&token=7838b88f-f0dc-42d4-b20c-9d9ad7c2835f"
@@ -361,6 +405,7 @@
       "nameProduct": "Chả lụa siêu dễ",
       "price": 60000,
       "quantity": 30,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaLua%2Fcha-lua.jpg?alt=media&token=26b5676d-7a8c-4808-826a-1ec8d962cd36"
@@ -429,6 +474,7 @@
       "nameProduct": "Cháo cá phô mai",
       "price": 80000,
       "quantity": 30,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FChaoCaPhoMai%2Fchao-ca-hoi-cai-bo-xoi-pho-mai.jpg?alt=media&token=29782b00-456c-47b6-aae2-8e66f5df422d"
@@ -496,6 +542,7 @@
       "nameProduct": "Gỏi dưa leo",
       "price": 200000,
       "quantity": 30,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiDuaLeo%2Fgoi-dua-leo-kho-ca-sac.jpg?alt=media&token=e542c760-4f6f-4add-990c-443b6171baef"
@@ -562,10 +609,11 @@
     },
     {
       "id": 7,
-      "categoryId": 9,
+      "categoryId": 11,
       "nameProduct": "Kem Overnight Oat",
       "price": 10000,
       "quantity": 30,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FKemOvernightOat%2Fovernight-oats-cach-lam.jpg?alt=media&token=229e67a8-661f-454d-b23d-58ce33a0eeb8"
@@ -626,6 +674,7 @@
       "nameProduct": "Phở xào",
       "price": 55000,
       "quantity": 30,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FPhoXao%2Fpho-xao.jpg?alt=media&token=c24332d4-8da1-48b1-9ade-e34090629b86"
@@ -707,6 +756,7 @@
       "nameProduct": "Cá biển kho",
       "price": 30000,
       "quantity": 20,
+      "likeStatus": false,
       "imageProduct": [
         {
           "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCaBienKho%2Fca-bien-kho.jpg?alt=media&token=6bddecaa-82bb-4ee4-aa2a-26cf924bfbc3"
@@ -749,6 +799,1561 @@
       ],
       "createdAt": "02:37:50, 15/11/2023",
       "updatedAt": "02:37:50, 15/11/2023"
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "nameProduct": "Bò kho bánh Mì",
+      "price": 30000,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-nau-bo-kho-banh-mi.jpg?alt=media&token=5d7a9216-01ee-4304-8f50-028ea0599915"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-lam-bo-kho-banh-mi.jpg?alt=media&token=ff3c407f-9cf7-449f-8820-f52695536e2f"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-nau-bo-kho-banh-mi-ngon.jpg?alt=media&token=34acaa63-d94f-474c-b914-a91b54f6bb11"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": "02:37:50, 15/11/2023"
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "nameProduct": "Bò nấu đậu chay",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoNauDauChay%2Fbo-nau-dau-chay.jpg?alt=media&token=cee34080-0137-48a9-bbbf-68cb16b46cfc"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoNauDauChay%2Flam-hop-hop-xot-sanh-tu-bo-va-bot-mi.jpg?alt=media&token=d11b4154-315e-4ce2-a4c7-24dddff68579"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoNauDauChay%2Fcong-thuc-ngam-thit-bo-chay-trong-nuoc-lanh.jpg?alt=media&token=3afa37d3-48a0-4209-8c5f-599b19256fc5"
+              },
+              {
+                "step": "3. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoNauDauChay%2Fcho-hon-hop-vao-nau-cung.jpg?alt=media&token=e8816aa1-01b7-41c9-b4fb-11c7f8c97ad9"
+              },
+              {
+                "step": "4. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoNauDauChay%2Fxao-so-qua-cac-loai-rau-cu-va-bo-chay.jpg?alt=media&token=fed2ba82-5adc-44d0-b604-1e89de6aeded"
+              },
+              {
+                "step": "5 .Trình bày và thưởc thức",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoNauDauChay%2Fhoc-nau-cac-mon-ham-chay.jpg?alt=media&token=6e2d43ae-4176-481a-bd30-56d6777e1327"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "nameProduct": "Canh ngao chua",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCanhNgaoChua%2Fcanh-ngao-nau-sau.jpg?alt=media&token=23ecad40-4b41-483b-95fb-e916c5ee0659"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-lam-bo-kho-banh-mi.jpg?alt=media&token=ff3c407f-9cf7-449f-8820-f52695536e2f"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-nau-bo-kho-banh-mi-ngon.jpg?alt=media&token=34acaa63-d94f-474c-b914-a91b54f6bb11"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 13,
+      "categoryId": 4,
+      "nameProduct": "Canh chua cá lóc",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCanhChuaCaLoc%2Fcanh-chua-ca-loc.jpg?alt=media&token=38141ede-21b2-49ae-9203-3ee61e3d5962"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-lam-bo-kho-banh-mi.jpg?alt=media&token=ff3c407f-9cf7-449f-8820-f52695536e2f"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-nau-bo-kho-banh-mi-ngon.jpg?alt=media&token=34acaa63-d94f-474c-b914-a91b54f6bb11"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 14,
+      "categoryId": 4,
+      "nameProduct": "Canh rong biển",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCanhRongBien%2Fcanh-rong-bien.jpg?alt=media&token=7990b3c0-6517-4b7e-8ef8-81fe4acf8789"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-lam-bo-kho-banh-mi.jpg?alt=media&token=ff3c407f-9cf7-449f-8820-f52695536e2f"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBoKhoBanhMi%2Fcach-nau-bo-kho-banh-mi-ngon.jpg?alt=media&token=34acaa63-d94f-474c-b914-a91b54f6bb11"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 15,
+      "categoryId": 1,
+      "nameProduct": "Cơm rang dưa bò",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcom-rang-bo.png?alt=media&token=2aee1e7a-c46e-40f4-96c3-694d13b10fb3"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 16,
+      "categoryId": 1,
+      "nameProduct": "Mắm kho quẹt",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FMamKhoQuet%2Fnuoc-mam-kho-quet.jpg?alt=media&token=d39a205a-3464-485e-ae97-0bae80b6eaa8"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 17,
+      "categoryId": 2,
+      "nameProduct": "Salad cá ngừ",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FSalaCaNgu%2Fsalad-ca-ngu.jpg?alt=media&token=e15861f2-4833-4f2b-a72a-fedfed7f59e2"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 18,
+      "categoryId": 2,
+      "nameProduct": "Salad dưa hấu",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FSalaDuaHau%2Fsalad-dua-hau-rau-arugula.jpg?alt=media&token=5eab2d60-a251-48b5-af44-892995811f79"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 19,
+      "categoryId": 6,
+      "nameProduct": "Khoai môn chiên",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FKhoaiMonChien%2Fkhoai-mon-chien-nuoc-mam.jpg?alt=media&token=d6590d1b-5c76-40fe-bdd9-d9d0b604d0ad"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 20,
+      "categoryId": 2,
+      "nameProduct": "Gỏi ốc giác",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGoiOcGiac%2Fgoi-oc-giac.jpg?alt=media&token=819bc2a3-0b07-4366-9be3-47954536718f"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 21,
+      "categoryId": 1,
+      "nameProduct": "Cách kho cá rô phi",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCaRoPhiKho%2Fca-ro-phi-kho.jpg?alt=media&token=ed3b174b-9611-4d18-aa1a-c362bb1e7e2e"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 22,
+      "categoryId": 8,
+      "nameProduct": "Lẩu cá lăng",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FLauCaLang%2Fca-lang-nau-gi-ngon.jpg?alt=media&token=78354bfb-168d-418c-8f95-10a0b2659e23"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 23,
+      "categoryId": 11,
+      "nameProduct": "Heavy cream",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FHeavyCream%2Fheavy-cream-la-gi.jpg?alt=media&token=2c101b64-94c1-4a68-91b8-fa11b440bb3d"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 24,
+      "categoryId": 7,
+      "nameProduct": "Nui xào bò",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FNuiXaoBo%2Fnui-xao-bo.jpg?alt=media&token=8adba85f-039e-4598-8412-c6a85d54ef4d"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 25,
+      "categoryId": 8,
+      "nameProduct": "Lẩu gầu bò thập cẩm",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FLauGauBo%2Flau-gau-bo.jpg?alt=media&token=b28f089a-754c-4536-a2f9-32221aaa9fd3"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 26,
+      "categoryId": 7,
+      "nameProduct": "Heo rừng xào lăn",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FHeoRungXaoLan%2Fheo-rung-xao-lan.jpg?alt=media&token=22092742-f7d5-4b66-be28-dbc9f60fde03"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 27,
+      "categoryId": 9,
+      "nameProduct": "Bún măng vịt",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FBunMangVit%2Fbun-mang-vit.jpg?alt=media&token=ee3418bc-66e3-4be3-ba3f-2dff36401899"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 28,
+      "categoryId": 12,
+      "nameProduct": "Giấm táo",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FGiamTao%2Fgiam-tao.jpg?alt=media&token=5207a8d0-09df-4987-96fd-70bb7e84cbb0"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 29,
+      "categoryId": 12,
+      "nameProduct": "Nước đậu đỏ",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FNuocDauDo%2Fcach-lam-nuoc-dau-do-giam-can.jpg?alt=media&token=a024975f-d087-4831-bc86-505dff7168cb"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 30,
+      "categoryId": 10,
+      "nameProduct": "Trà sữa trân châu",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FTraSuaTranChau%2Ftra-sua-tran-chau.jpg?alt=media&token=57c0659d-97f4-4e52-ba83-17f11cfc8bb4"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 31,
+      "categoryId": 12,
+      "nameProduct": "Nước ép dưa hấu",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FNuocEpDuaHau%2Fnuoc-ep-dua-hau.jpg?alt=media&token=88be6b76-82dc-482d-a05e-0829f85166c3"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 32,
+      "categoryId": 11,
+      "nameProduct": "Nước cốt dừa",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FNuocCotDua%2Fnuoc-cot-dua.jpg?alt=media&token=20ac3368-7b9f-4d08-a703-e6fda2ee8c73"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 33,
+      "categoryId": 12,
+      "nameProduct": "Mojito việt quất",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FMojitoVietQuat%2Frecipe-mojito-blackberry.jpg?alt=media&token=b69f68d1-5704-42ad-9ed7-dffaed966b09"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 34,
+      "categoryId": 10,
+      "nameProduct": "Cafe đá xay",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FCafeDaXay%2Fcach-lam-cafe-da-xay.jpg?alt=media&token=3260916d-432d-4916-b049-76b395ac1467"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 35,
+      "categoryId": 10,
+      "nameProduct": "Trà thiết Quan âm",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FTraThietQuanAm%2Ftra-thiet-quan-am.jpg?alt=media&token=b6db23ca-c352-46e8-b32c-7b27fbb9a7c3"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 36,
+      "categoryId": 11,
+      "nameProduct": "Nước ép dứa",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FNuocEpDua%2Fnuoc-ep-dua.jpg?alt=media&token=b8544d77-61af-46d7-aa85-389998673edf"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
+    },
+    {
+      "id": 37,
+      "categoryId": 10,
+      "nameProduct": "Trà dưa vàng",
+      "price": 200443040,
+      "quantity": 20,
+      "likeStatus": false,
+      "imageProduct": [
+        {
+          "urlImage": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FNuocEpDua%2Fnuoc-ep-dua.jpg?alt=media&token=b8544d77-61af-46d7-aa85-389998673edf"
+        }
+      ],
+      "description": [
+        {
+          "name": "Với cách kho cá biển ngon, bạn sẽ có ngay một món ngon đầy hấp dẫn, tươi ngọt tự nhiên để đổi gió khẩu vị hoặc làm phong phú thêm thực đơn kinh doanh. \n Không chỉ mang đến hương vị đậm đà, món cá biển kho còn trông rất bắt mắt, kích thích thị giác khiến thực khách chỉ muốn thưởng thức ngay từ cái nhìn đầu tiên!",
+          "ingredient": {
+            "name": "Nguyên liệu",
+            "detail": [
+              {
+                "1": "500g cá biển cắt khứa"
+              },
+              {
+                "2": "100g thịt ba chỉ"
+              },
+              {
+                "3": "1 trái ớt sừng"
+              },
+              {
+                "4": "Hành lá, tỏi, hành tím"
+              },
+              {
+                "5": "Gia vị: bột canh, tiêu, nước mắm, tương ớt, hạt nêm, đường…"
+              }
+            ]
+          },
+          "makeFood": {
+            "steps": "Các bước thực hiện",
+            "detail": [
+              {
+                "step": "1. Sơ chế nguyên liệu",
+                "content": "Cá biển bạn có thể mua nguyên con, đem về làm sạch rồi cắt khứa hoặc nhờ người bán làm sẵn nhé!\n Tỏi, hành tím bóc vỏ, băm nhuyễn.\nThịt heo làm sạch, cắt thành từng miếng vừa ăn.\nHành lá làm sạch, cắt nhỏ. Ớt bỏ hạt, băm nhuyễn.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Flam-com-rang-dua-bo.jpg?alt=media&token=665181a7-1317-43bf-b227-f38fe87b8916"
+              },
+              {
+                "step": "2. Sơ chế hến và nguyên liệu khác",
+                "content": "Hến tươi ngâm với nước vo gạo trong 30 phút rồi rửa sạch. Bắc một nồi nước lên bếp, khi nước gần sôi (khoảng 80 độ C) thì cho hến vào luộc.\n Dùng đũa hoặc muỗng khuấy đảo đều để thịt hến tách ra khỏi vỏ, sau đó đãi hến lấy phần thịt. Để yên nồi nước luộc một lúc cho cát lắng xuống dưới đáy rồi gạn lọc lấy phần nước màu trắng đục.\n Bạc hà tước vỏ, rửa sạch, rồi bào thành sợi mỏng.\n Đậu phộng cho vào chảo rang với 2 muỗng canh dầu màu điều, 1/2 muỗng cà phê muối. Rang đều tay với lửa nhỏ đến khi thấy đậu phộng lên màu đỏ cam đẹp mắt là được.\n Da heo cắt thành những miếng vuông vừa ăn rồi chiên ngập dầu đến khi phồng, giòn.\n Các loại rau ăn kèm rửa sạch, để ráo. Rau răm cắt nhỏ, để riêng.\n Khế rửa sạch, cắt bỏ riềm rồi cắt sợi nhỏ hoặc cắt lát đều được.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/rn-monngonnoingay.appspot.com/o/Dish%2FComRangDuaBo%2Fcach-nau-com-rang-dua-bo-ngon.jpg?alt=media&token=af77d2da-316d-4e04-8a0a-99e6182e8929"
+              }
+            ]
+          }
+        }
+      ],
+      "createdAt": "02:37:50, 15/11/2023",
+      "updatedAt": 1701848990082
     }
   ]
 }

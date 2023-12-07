@@ -16,12 +16,16 @@
   "author": "Danh Son",
   "license": "MIT",
   "dependencies": {
+    "express-jwt": "^8.4.1",
     "faker": "^5.5.0",
     "json-server": "^0.17.4",
     "multer": "^1.4.5-lts.1",
-    "query-string": "^7.0.0"
+    "query-string": "^7.0.0",
+    "mongoose": "^7.0.3"
   },
   "devDependencies": {
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
     "nodemon": "^3.0.1"
   }
 }

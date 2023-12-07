@@ -3,16 +3,26 @@
 # Categories
 
 # @name getuser
-GET {{baseUrl}}/user
+GET {{baseUrl}}/users
+
+###
+
+# @name login
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "111"
+}
 
 ###
 
 # @name addNewuser
-POST {{baseUrl}}/user
+POST {{baseUrl}}/users
 Content-Type: application/json
 
 {
-   
     "name":"son",
     "username": "admin",
     "password":"111",
@@ -23,7 +33,7 @@ Content-Type: application/json
 ###
 
 # @name updateuser
-PATCH  {{baseUrl}}/user/k0zIWwe
+PATCH  {{baseUrl}}/users/k0zIWwe
 Content-Type: application/json
 
 {
@@ -35,4 +45,6 @@ Content-Type: application/json
 ###
 
 # @name deleteCategory
-DELETE  {{baseUrl}}/user/Ig-k4qq
+DELETE  {{baseUrl}}/user/SisrT02
+
+###
